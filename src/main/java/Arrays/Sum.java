@@ -26,10 +26,4 @@ public class Sum {
         return sum;
     }
     
-    public static void main(String[] args) {
-        //This is just for testing...
-        int[] a = {2,3,4};
-        System.out.println(Sum(a));
-    }
-    
 }
