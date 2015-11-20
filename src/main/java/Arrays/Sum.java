@@ -18,6 +18,8 @@ package Arrays;
 
 public class Sum {
     
+    //first try
+    
     public static int Sum(int[] numbers) {
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
