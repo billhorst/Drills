@@ -44,6 +44,20 @@ public class HasEvenTest {
         assertTrue(h.HasEven(a));
     }
 
+    @Test
+    public void t43() {
+        HasEven h = new HasEven();
+        int[] a = {4,3};
+        assertTrue(h.HasEven(a));
+    }
+    
+    @Test
+    public void f75() {
+        HasEven h = new HasEven();
+        int[] a = {7,5};
+        assertFalse(h.HasEven(a));
+    }    
+    
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //

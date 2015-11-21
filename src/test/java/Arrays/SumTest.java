@@ -17,32 +17,48 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class SumTest {
-    
+
     public SumTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void six123() {
         Sum s = new Sum();
         int[] a = {1, 2, 3};
         int result = s.Sum(a);
-        assertEquals(result,6);
+        assertEquals(result, 6);
+    }
+
+    @Test
+    public void eighteen5112() {
+        Sum s = new Sum();
+        int[] a = {5,11,2};
+        int result = s.Sum(a);
+        assertEquals(result, 18);
+    }
+
+    @Test
+    public void seven700() {
+        Sum s = new Sum();
+        int[] a = {7,0,0};
+        int result = s.Sum(a);
+        assertEquals(result, 7);
     }
 
     // TODO add test methods here.

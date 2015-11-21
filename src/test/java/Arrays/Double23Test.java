@@ -43,6 +43,20 @@ public class Double23Test {
         int[] a = {2,2,3};
         assertTrue(d.Double23(a));
     }
+    
+    @Test
+    public void t3453() {
+        Double23 d = new Double23();
+        int[] a = {3,4,5,3};
+        assertTrue(d.Double23(a));
+    }
+    
+    @Test
+    public void f2322() {
+        Double23 d = new Double23();
+        int[] a = {2,3,2,2};
+        assertFalse(d.Double23(a));
+    }    
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
