@@ -16,7 +16,7 @@ package Arrays;
 //Double23({3, 4, 5, 3}) -> true
 //Double23({2, 3, 2, 2}) -> false
 
-public class Double23 {
+public class Double23 { 
     
     public boolean Double23(int[] numbers) {
         boolean twice;
