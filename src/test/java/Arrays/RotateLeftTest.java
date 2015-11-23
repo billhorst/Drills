@@ -17,24 +17,48 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class RotateLeftTest {
-    
+
     public RotateLeftTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
+    }
+
+    @Test
+    public void t123231() {
+        RotateLeft r = new RotateLeft();
+        int[] a = {1, 2, 3};
+        int[] result = r.RotateLeft(a);
+        assertEquals(result, a);
+    }
+
+    @Test
+    public void t5119() {
+        RotateLeft r = new RotateLeft();
+        int[] a = {5, 11, 9};
+        int[] result = r.RotateLeft(a);
+        assertEquals(result, a);
+    }
+
+    @Test
+    public void t700() {
+        RotateLeft r = new RotateLeft();
+        int[] a = {7, 0, 0};
+        int[] result = r.RotateLeft(a);
+        assertEquals(result, a);
     }
 
     // TODO add test methods here.

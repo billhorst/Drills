@@ -36,6 +36,30 @@ public class ReverseTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void t123() {
+        Reverse r = new Reverse();
+        int[] a = {1,2,3};
+        int[] ex = {3,2,1};
+        assertArrayEquals(ex, r.Reverse(a));
+    }
+    
+    @Test
+    public void t345() {
+        Reverse r = new Reverse();
+        int[] a = {3,4,5};
+        int[] ex = {5,4,3};
+        assertArrayEquals(ex, r.Reverse(a));
+    }
+    
+    @Test
+    public void t222223() {
+        Reverse r = new Reverse();
+        int[] a = {22,22,23};
+        int[] ex = {23,22,22};
+        assertArrayEquals(ex, r.Reverse(a));
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

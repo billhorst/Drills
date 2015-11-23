@@ -36,6 +36,30 @@ public class SameFirstLastTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void sfl123() {
+        SameFirstLast sfl = new SameFirstLast();
+        int[] array = {1,2,3};
+        boolean result = sfl.SameFirstLast(array);
+        assertFalse(result);
+    }
+    
+    @Test
+    public void sf1231() {
+        SameFirstLast sfl = new SameFirstLast();
+        int[] array = {1,2,3,1};
+        boolean result = sfl.SameFirstLast(array);
+        assertTrue(result);
+    }
+    
+    @Test
+    public void sf121() {
+        SameFirstLast sfl = new SameFirstLast();
+        int[] array = {1,2,1};
+        boolean result = sfl.SameFirstLast(array);
+        assertTrue(result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
