@@ -16,25 +16,49 @@ import static org.junit.Assert.*;
  *
  * @author Bill
  */
-public class FirstLast6 {
-    
-    public FirstLast6() {
+public class FirstLast6Test {
+
+    public FirstLast6Test() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
+    }
+
+    @Test
+    public void fl126() {
+        FirstLast6 fl = new FirstLast6();
+        int[] array = {1, 2, 6};
+        boolean result = fl.FirstLast6(array);
+        assertTrue(result);
+    }
+
+    @Test
+    public void fl6123() {
+        FirstLast6 fl = new FirstLast6();
+        int[] array = {6, 1, 2, 3};
+        boolean result = fl.FirstLast6(array);
+        assertTrue(result);
+    }
+
+    @Test
+    public void fl13_6123() {
+        FirstLast6 fl = new FirstLast6();
+        int[] array = {13, 6, 1, 2, 3};
+        boolean result = fl.FirstLast6(array);
+        assertFalse(result);
     }
 
     // TODO add test methods here.
