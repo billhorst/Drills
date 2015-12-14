@@ -36,6 +36,27 @@ public class RotateLeftTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void rlhello() {
+        RotateLeft r = new RotateLeft();
+        String result = r.RotateLeft("Hello");
+        assertEquals("lloHe", result);
+    }
+    
+    @Test
+    public void rljava() {
+        RotateLeft r = new RotateLeft();
+        String result = r.RotateLeft("Java");
+        assertEquals("vaJa", result);
+    }
+    
+    @Test
+    public void rrhi() {
+        RotateLeft r = new RotateLeft();
+        String result = r.RotateLeft("Hi");
+        assertEquals("Hi", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

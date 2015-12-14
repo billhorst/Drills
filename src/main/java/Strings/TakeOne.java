@@ -19,4 +19,12 @@ public class TakeOne {
 //TakeOne("Hello", false) -> "o"
 //TakeOne("oh", true) -> "o"
     
+    public String TakeOne(String s, boolean b) {
+        if (b) {
+            return s.substring(0,1);
+        } else {
+            return s.substring(s.length()-1, s.length());
+        }
+    }
+    
 }

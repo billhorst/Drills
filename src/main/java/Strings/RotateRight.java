@@ -19,4 +19,9 @@ public class RotateRight {
 //RotateRight2("java") -> "vaja"
 //RotateRight2("Hi") -> "Hi"
     
+    public String RotateRight(String s) {
+        String rightTwo = s.substring(s.length()-2, s.length());
+        return rightTwo + s.substring(0, s.length()-2);
+    }
+    
 }

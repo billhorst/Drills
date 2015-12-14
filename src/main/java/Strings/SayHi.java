@@ -17,4 +17,8 @@ public class SayHi {
 //SayHi("Alice") -> "Hello Alice!"
 //SayHi("X") -> "Hello X!"
     
+    public String SayHi(String s) {
+        return "Hello " + s;
+    }
+    
 }

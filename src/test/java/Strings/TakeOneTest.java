@@ -36,6 +36,27 @@ public class TakeOneTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void helloth() {
+        TakeOne t = new TakeOne();
+        String result = t.TakeOne("Hello", true);
+        assertEquals("H", result);
+    }
+    
+    @Test
+    public void hellofo() {
+        TakeOne t = new TakeOne();
+        String result = t.TakeOne("Hello", false);
+        assertEquals("o", result);
+    }
+    
+    @Test
+    public void ohto() {
+        TakeOne t = new TakeOne();
+        String result = t.TakeOne("oh", true);
+        assertEquals("o", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

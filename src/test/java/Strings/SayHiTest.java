@@ -36,6 +36,27 @@ public class SayHiTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void SayHiBob() {
+        SayHi sh = new SayHi();
+        String result = sh.SayHi("Bob");
+        assertEquals("Hello Bob", result);
+    }
+
+    @Test
+    public void SayHiBill() {
+        SayHi sh = new SayHi();
+        String result = sh.SayHi("Bill");
+        assertEquals("Hello Bill", result);        
+    }
+
+    @Test
+    public void SayHiBonito() {
+        SayHi sh = new SayHi();
+        String result = sh.SayHi("Bonito");
+        assertEquals("Hello Bonito", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
