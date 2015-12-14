@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Bill
  */
-public class StringsTest {
+public class MakeTagsTest {
     
-    public StringsTest() {
+    public MakeTagsTest() {
     }
     
     @BeforeClass

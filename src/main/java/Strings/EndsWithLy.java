@@ -9,6 +9,12 @@ package Strings;
  *
  * @author Bill
  */
-public class Strings {
+public class EndsWithLy {
+    
+//   Given a string, return true if it ends in "ly". 
+//
+//EndsWithLy("oddly") -> true
+//EndsWithLy("y") -> false
+//EndsWithLy("oddy") -> false
     
 }
