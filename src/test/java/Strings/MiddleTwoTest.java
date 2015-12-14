@@ -36,6 +36,27 @@ public class MiddleTwoTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void stringri() {
+        MiddleTwo m = new MiddleTwo();
+        String result = m.MiddleTwo("String");
+        assertEquals("ri", result);
+    }
+    
+    @Test
+    public void codeod() {
+        MiddleTwo m = new MiddleTwo();
+        String result = m.MiddleTwo("Code");
+        assertEquals("od", result);
+    }
+    
+    @Test
+    public void practicect() {
+        MiddleTwo m = new MiddleTwo();
+        String result = m.MiddleTwo("Practice");
+        assertEquals("ct", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

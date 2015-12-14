@@ -36,6 +36,27 @@ public class MultipleEndingsTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void hehawawaw() {
+        MultipleEndings me = new MultipleEndings();
+        String result = me.MultipleEndings("Hehaw");
+        assertEquals("awawaw", result);
+    }
+    
+    @Test
+    public void hellololo() {
+        MultipleEndings me = new MultipleEndings();
+        String result = me.MultipleEndings("Hello");
+        assertEquals("lololo", result);
+    }
+    
+    @Test
+    public void hi() {
+        MultipleEndings me = new MultipleEndings();
+        String result = me.MultipleEndings("Hi");
+        assertEquals("HiHiHi", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

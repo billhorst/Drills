@@ -10,7 +10,7 @@ package Strings;
  * @author Bill
  */
 public class MiddleTwo {
-    
+
 //    Given a string of even length, return a string made of the middle
 //            two chars, so the string "string" yields "ri". The string 
 //                    length will be at least 2. 
@@ -18,5 +18,8 @@ public class MiddleTwo {
 //MiddleTwo("string") -> "ri"
 //MiddleTwo("code") -> "od"
 //MiddleTwo("Practice") -> "ct"
-    
+    public String MiddleTwo(String s) {
+        return s.substring((s.length() / 2) - 1, (s.length() / 2) + 1);
+    }
+
 }

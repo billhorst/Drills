@@ -18,4 +18,9 @@ public class MultipleEndings {
 //MultipleEndings("ab") -> "ababab"
 //MultipleEndings("Hi") -> "HiHiHi"
     
+    public String MultipleEndings(String s) {
+        String a = s.substring(s.length()-2, s.length());
+        return a + a + a;
+    }
+    
 }

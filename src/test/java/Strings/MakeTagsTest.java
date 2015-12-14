@@ -36,6 +36,27 @@ public class MakeTagsTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void iHello() {
+        MakeTags mt = new MakeTags();
+        String result = mt.MakeTags("i", "Hello");
+        assertEquals("<i>Hello</i>", result);
+    }
+    
+    @Test
+    public void iYay() {
+        MakeTags mt = new MakeTags();
+        String result = mt.MakeTags("i", "Yay");
+        assertEquals("<i>Yay</i>", result);
+    }
+    
+    @Test
+    public void citeYay() {
+        MakeTags mt = new MakeTags();
+        String result = mt.MakeTags("cite", "Yay");
+        assertEquals("<cite>Yay</cite>", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
