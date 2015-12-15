@@ -20,4 +20,8 @@ public class InsertWord {
 //InsertWord("<<>>", "WooHoo") -> "<<WooHoo>>"
 //InsertWord("[[]]", "word") -> "[[word]]"
     
+    public String InsertWord(String o, String w) {
+        return o.substring(0, 2) + w + o.substring(2, 4);
+    }
+    
 }

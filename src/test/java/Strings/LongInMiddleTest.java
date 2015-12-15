@@ -36,6 +36,27 @@ public class LongInMiddleTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void helloHi() {
+        LongInMiddle lim = new LongInMiddle();
+        String result = lim.LongInMiddle("Hello", "hi");
+        assertEquals("hiHellohi", result);
+    }
+    
+    @Test
+    public void hiHello() {
+        LongInMiddle lim = new LongInMiddle();
+        String result = lim.LongInMiddle("hi", "Hello");
+        assertEquals("hiHellohi", result);
+    }
+    
+    @Test
+    public void aaab() {
+        LongInMiddle lim = new LongInMiddle();
+        String result = lim.LongInMiddle("aaa", "b");
+        assertEquals("baaab", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

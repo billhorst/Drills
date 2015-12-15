@@ -19,4 +19,17 @@ public class LongInMiddle {
 //LongInMiddle("hi", "Hello") -> "hiHellohi"
 //LongInMiddle("aaa", "b") -> "baaab"
     
+    public String LongInMiddle(String one, String two) {
+        String l = "";
+        String s = "";
+        if (one.length()>two.length()) {
+            l = one;
+            s = two;
+        } else {
+            l = two;
+            s = one;
+        }
+        return s + l + s;
+}
+    
 }

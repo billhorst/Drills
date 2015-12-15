@@ -17,4 +17,8 @@ public class FirstHalf {
 //FirstHalf("HelloThere") -> "Hello"
 //FirstHalf("abcdef") -> "abc"
     
+    public String FirstHalf(String s) {
+        return s.substring(0, s.length()/2);
+    }
+    
 }

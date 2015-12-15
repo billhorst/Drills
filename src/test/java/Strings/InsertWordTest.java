@@ -36,6 +36,27 @@ public class InsertWordTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void hi() {
+        InsertWord iw = new InsertWord();
+        String result = iw.InsertWord("<<>>", "hi");
+        assertEquals("<<hi>>", result);
+    }
+
+    @Test
+    public void hello() {
+        InsertWord iw = new InsertWord();
+        String result = iw.InsertWord("(())", "hello");
+        assertEquals("((hello))", result);
+    }
+
+    @Test
+    public void you() {
+        InsertWord iw = new InsertWord();
+        String result = iw.InsertWord("iajw", "you");
+        assertEquals("iayoujw", result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

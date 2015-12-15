@@ -18,4 +18,8 @@ public class Abba {
 //Abba("Yo", "Alice") -> "YoAliceAliceYo"
 //Abba("What", "Up") -> "WhatUpUpWhat"
     
+    public String Abba(String a, String b) {
+        return a + b + b + a;
+    }
+    
 }

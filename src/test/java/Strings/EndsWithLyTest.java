@@ -36,6 +36,27 @@ public class EndsWithLyTest {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void oddlyt() {
+        EndsWithLy e = new EndsWithLy();
+        boolean result = e.EndsWithLy("oddly");
+        assertTrue(result);
+    }
+    
+    @Test
+    public void y() {
+        EndsWithLy e = new EndsWithLy();
+        boolean result = e.EndsWithLy("y");
+        assertFalse(result);
+    }
+    
+    @Test
+    public void oddy() {
+        EndsWithLy e = new EndsWithLy();
+        boolean result = e.EndsWithLy("oddy");
+        assertFalse(result);
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
