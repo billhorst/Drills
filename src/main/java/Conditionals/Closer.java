@@ -5,6 +5,8 @@
  */
 package Conditionals;
 
+import static java.lang.StrictMath.abs;
+
 /**
  *
  * @author Bill
@@ -17,5 +19,18 @@ public class Closer {
 //Closer(8, 13) -> 8
 //Closer(13, 8) -> 8
 //Closer(13, 7) -> 0
+    
+    public int Closer(int a, int b) {
+        int resA = abs(10 - a);
+        int resB = abs(10 - b);
+        
+        if (resA < resB) {
+            return a;
+        } else if (resB < resA ) {
+            return b;
+        } else {
+            return 0;
+        }
+    }
     
 }

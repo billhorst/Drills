@@ -39,22 +39,22 @@ public class Between10And20Test {
     
     @Test
     public void t1299() {
-        Between10and20 b = new Between10and20();
-        boolean result = b.Between10and20(12, 99);
+        Between10And20 b = new Between10And20();
+        boolean result = b.Between10And20(12, 99);
         assertTrue(result);
     }
     
     @Test
     public void t2112() {
-        Between10and20 b = new Between10and20();
-        boolean result = b.Between10and20(21, 12);
+        Between10And20 b = new Between10And20();
+        boolean result = b.Between10And20(21, 12);
         assertTrue(result);
     }
     
     @Test
     public void f899() {
-        Between10and20 b = new Between10and20();
-        boolean result = b.Between10and20(8, 99);
+        Between10And20 b = new Between10And20();
+        boolean result = b.Between10And20(8, 99);
         assertFalse(result);
     }
 

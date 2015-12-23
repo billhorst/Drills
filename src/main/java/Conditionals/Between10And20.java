@@ -17,4 +17,12 @@ public class Between10And20 {
 //Between10and20(21, 12) -> true
 //Between10and20(8, 99) -> false
     
+    public boolean Between10And20(int a, int b) {
+        if (a >=10 && a <=20 || b >= 10 && b <=20) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }
