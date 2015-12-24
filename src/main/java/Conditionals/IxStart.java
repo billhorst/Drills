@@ -18,4 +18,12 @@ public class IxStart {
 //IxStart("pix snacks") -> true
 //IxStart("piz snacks") -> false
     
+    public  boolean IxStart(String s) {
+        if (s.substring(1, 3).equals("ix")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

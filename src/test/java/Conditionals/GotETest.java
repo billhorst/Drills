@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Bill
  */
-public class GetETest {
+public class GotETest {
     
-    public GetETest() {
+    public GotETest() {
     }
     
     @BeforeClass
@@ -39,21 +39,21 @@ public class GetETest {
     
     @Test
     public void hello() {
-        EEEEEEE e = new EEEEEEE();
+        GotE e = new GotE();
         boolean result = e.GotE("Hello");
         assertTrue(result);
     }
     
     @Test
     public void heelle() {
-        EEEEEEE e = new EEEEEEE();
+        GotE e = new GotE();
         boolean result = e.GotE("Heelle");
         assertTrue(result);
     }
     
     @Test
     public void heelele() {
-        EEEEEEE e = new EEEEEEE();
+        GotE e = new GotE();
         boolean result = e.GotE("Heelele");
         assertFalse(result);
     }

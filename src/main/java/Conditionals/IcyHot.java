@@ -17,4 +17,12 @@ public class IcyHot {
 //IcyHot(-1, 120) -> true
 //IcyHot(2, 120) -> false
     
+    public boolean IcyHot(int a, int b) {
+        if (a > 100 && b < 0 || a < 0 && b > 100) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

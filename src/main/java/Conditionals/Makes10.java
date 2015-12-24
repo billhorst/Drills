@@ -17,4 +17,12 @@ public class Makes10 {
 //Makes10(9, 9) -> false
 //Makes10(1, 9) -> true
     
+    public boolean Makes10(int a, int b) {
+        if (a == 10 || b == 10 || a+b == 10) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

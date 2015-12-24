@@ -18,4 +18,14 @@ public class HasTeen {
 //HasTeen(20, 19, 10) -> true
 //HasTeen(20, 10, 12) -> false
     
+    public boolean HasTeen(int i1, int i2, int i3) {
+        if (i1 >=13 && i1 <=19 ||
+            i2 >=13 && i2 <=19 ||
+            i3 >=13 && i3 <=19) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

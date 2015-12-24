@@ -17,4 +17,19 @@ public class GotE {
 //GotE("Heelle") -> true
 //GotE("Heelele") -> false
     
+    public boolean GotE(String s) {
+        String[] array = s.split("");
+        int eCount = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals("e")) {
+                eCount++;
+            }
+        }
+        if (eCount >= 1 && eCount <= 3) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }
