@@ -20,4 +20,11 @@ public class MissingChar {
 //MissingChar("kitten", 0) -> "itten"
 //MissingChar("kitten", 4) -> "kittn"
     
+    public String MissingChar(String word, int index) {
+        String results = word.substring(0, index);
+        results = results + word.substring(index + 1, word.length());
+        
+        return results;
+    }
+    
 }

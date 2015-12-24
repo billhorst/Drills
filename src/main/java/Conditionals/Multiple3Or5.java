@@ -18,4 +18,12 @@ public class Multiple3Or5 {
 //Multiple3or5(10) -> true
 //Multiple3or5(8) -> false
     
+    public boolean Multiple3Or5(int i) {
+        if (i%3 == 0 || i%5 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

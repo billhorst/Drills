@@ -20,4 +20,14 @@ public class MischievousChildren {
 //AreWeInTrouble(false, false) -> true
 //AreWeInTrouble(true, false) -> false
     
+    public boolean AreWeInTrouble(boolean aSmile, boolean bSmile) {
+        if (aSmile && bSmile) {
+            return true;
+        } else if (!aSmile && !bSmile) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

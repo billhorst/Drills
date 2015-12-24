@@ -39,22 +39,22 @@ public class Multiple3Or5Test {
     
     @Test
     public void m3() {
-        Multiple3or5 m = new Multiple3or5();
-        boolean result = m.Multiple3or5(3);
+        Multiple3Or5 m = new Multiple3Or5();
+        boolean result = m.Multiple3Or5(3);
         assertEquals(true, result);
     }
     
     @Test
     public void m10() {
-        Multiple3or5 m = new Multiple3or5();
-        boolean result = m.Multiple3or5(10);
+        Multiple3Or5 m = new Multiple3Or5();
+        boolean result = m.Multiple3Or5(10);
         assertEquals(true, result);
     }
     
     @Test
     public void m8() {
-        Multiple3or5 m = new Multiple3or5();
-        boolean result = m.Multiple3or5(8);
+        Multiple3Or5 m = new Multiple3Or5();
+        boolean result = m.Multiple3Or5(8);
         assertEquals(false, result);
     }
 

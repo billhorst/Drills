@@ -5,6 +5,8 @@
  */
 package Conditionals;
 
+import static java.lang.StrictMath.abs;
+
 /**
  *
  * @author Bill
@@ -12,10 +14,16 @@ package Conditionals;
 public class NearHundred {
     
     //    Given an int n, return true if it is within 10 of 100 or 200.
-//Hint: Check out the C# Math class for absolute value
-//
 //NearHundred(103) -> true
 //NearHundred(90) -> true
 //NearHundred(89) -> false
+    
+    public boolean NearHundred(int n) {
+        if (abs(n-100) <= 10 || abs(n-200) <= 10) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     
 }

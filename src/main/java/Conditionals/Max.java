@@ -17,4 +17,21 @@ public class Max {
 //Max(1, 3, 2) -> 3
 //Max(3, 2, 1) -> 3
     
+    public int Max(int a, int b, int c) {
+        int biggest;
+        if (a > b) {
+            biggest = a;
+        } else {
+            biggest = b;
+        }
+        
+        if (biggest > c) {
+            return biggest;
+        } else {
+            biggest = c;
+        }
+        
+        return biggest;
+    }
+    
 }

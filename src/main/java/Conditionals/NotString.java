@@ -21,4 +21,14 @@ public class NotString {
 //NotString("x") -> "not x"
 //NotString("not bad") -> "not bad"
     
+    public String NotString(String s) {
+        if (s.length()<5) {
+            return "not " + s;
+        } else if (s.substring(0, 3).equals("not")) {
+            return s;
+        } else {
+            return "not " + s;
+        }
+    }
+    
 }
