@@ -19,4 +19,14 @@ public class Diff21 {
 //Diff21(10) -> 11
 //Diff21(21) -> 0
     
+    public int Diff21(int i) {
+        if (i > 21){
+            return 2*(i - 21);
+        } else if (i < 21) {
+            return 21 - i;
+        } else {
+            return 0;
+        }
+    }
+    
 }

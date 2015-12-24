@@ -19,4 +19,16 @@ public class EveryNth {
 //EveryNth("abcdefg", 2) -> "aceg"
 //EveryNth("abcdefg", 3) -> "adg"
     
+    public String EveryNth(String s, int nth) {
+        String[] array = s.split("");
+        String results = "";
+        for (int i = 0; i < array.length; i++) {
+            if (i%nth == 0) {
+                results = results + array[i+1];
+            }
+        }
+        
+        return results;
+    }
+    
 }

@@ -19,4 +19,12 @@ public class EndUp {
 //EndUp("hi there") -> "hi thERE"
 //EndUp("hi") -> "HI"
     
+    public String EndUp(String s) {
+        if (s.length() >= 3) {
+            return s.substring(0, s.length()-3)+s.substring(s.length()-3).toUpperCase();
+        } else {
+            return s.toUpperCase();
+        }
+    }
+    
 }

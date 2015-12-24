@@ -20,4 +20,12 @@ public class FrontThree {
 //Front3("Chocolate") -> "ChoChoCho"
 //Front3("at") -> "atatat"
     
+    public String FrontThree(String s) {
+        if (s.length() < 3) {
+            return s+s+s;
+        } else {
+            return s.substring(0, 3)+s.substring(0, 3)+s.substring(0, 3);
+        }
+    }
+    
 }

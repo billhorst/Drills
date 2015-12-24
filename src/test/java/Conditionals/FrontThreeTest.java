@@ -40,21 +40,21 @@ public class FrontThreeTest {
     @Test
     public void microsoft() {
         FrontThree f = new FrontThree();
-        String result = f.Front3("Microsoft");
+        String result = f.FrontThree("Microsoft");
         assertEquals("MicMicMic", result);
     }
     
     @Test
     public void Chocolate() {
         FrontThree f = new FrontThree();
-        String result = f.Front3("Chocolate");
+        String result = f.FrontThree("Chocolate");
         assertEquals("ChoChoCho", result);
     }
     
     @Test
     public void at() {
         FrontThree f = new FrontThree();
-        String result = f.Front3("at");
+        String result = f.FrontThree("at");
         assertEquals("atatat", result);
     }
 
