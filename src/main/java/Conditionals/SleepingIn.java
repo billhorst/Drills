@@ -19,4 +19,12 @@ public class SleepingIn {
 //sleepIn(true, false) -> false
 //sleepIn(false, true) -> true
     
+    public boolean SleepingIn(boolean weekday, boolean vacation) {
+        if (vacation || (!vacation && !weekday)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }

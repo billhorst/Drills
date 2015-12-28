@@ -18,4 +18,12 @@ public class SumDouble {
 //SumDouble(3, 2) -> 5
 //SumDouble(2, 2) -> 8
     
+    public int SumDouble(int a, int b) {
+        if (a != b) {
+            return a + b;
+        } else {
+            return (a + b) * 2;
+        }
+    }
+    
 }

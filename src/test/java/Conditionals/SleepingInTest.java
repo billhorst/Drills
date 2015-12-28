@@ -40,21 +40,21 @@ public class SleepingInTest {
     @Test
     public void fft() {
         SleepingIn s = new SleepingIn();
-        boolean result = s.CanSleepIn(false, false);
+        boolean result = s.SleepingIn(false, false);
         assertTrue(result);
     }
     
     @Test
     public void tff() {
         SleepingIn s = new SleepingIn();
-        boolean result = s.CanSleepIn(true, false);
+        boolean result = s.SleepingIn(true, false);
         assertFalse(result);
     }
     
     @Test
     public void ftt() {
         SleepingIn s = new SleepingIn();
-        boolean result = s.CanSleepIn(false, true);
+        boolean result = s.SleepingIn(false, true);
         assertTrue(result);
     }
 

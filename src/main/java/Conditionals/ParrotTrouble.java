@@ -20,4 +20,14 @@ public class ParrotTrouble {
 //ParrotTrouble(true, 7) -> false
 //ParrotTrouble(false, 6) -> false
     
+    public boolean ParrotTrouble(boolean 話してる, int hour) {
+        
+        if ((hour < 7 || hour > 20) && 話してる) {
+            return true;
+        } else {
+            return false;
+        }
+        
+    }
+    
 }

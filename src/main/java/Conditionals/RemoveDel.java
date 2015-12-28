@@ -19,4 +19,16 @@ public class RemoveDel {
 //RemoveDel("adelHello") -> "aHello"
 //RemoveDel("adedbc") -> "adedbc"
     
+    public String RemoveDel(String s) {
+        
+        String twoThreeFour = s.substring(1, 4);
+        
+        if (twoThreeFour.equals("del")) {
+            return s.substring(0, 1) + s.substring(4);
+        } else {
+            return s;
+        }
+        
+    }
+    
 }

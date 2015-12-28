@@ -19,4 +19,16 @@ public class PosNeg {
 //PosNeg(-1, 1, false) -> true
 //PosNeg(-4, -5, true) -> true
     
+    public boolean PosNeg(int a, int b, boolean negative) {
+        
+        if (((a < 0 &&  b >= 0) || (a >= 0 && b < 0)) && negative == false) {
+            return true;
+        } else if (a < 0 && b < 0 && negative == true) {
+            return true;
+        } else {
+            return false;
+        }
+        
+    }
+    
 }

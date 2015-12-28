@@ -20,4 +20,21 @@ public class StartOz {
 //StartOz("bzoo") -> "z"
 //StartOz("oxx") -> "o"
     
+    public String StartOz(String s) {
+        String firstLetter = s.substring(0, 1);
+        String secondLetter = s.substring(1, 2);
+        
+        String newString = "";
+        
+        if (firstLetter.equals("o")) {
+            newString = newString + "o";
+        }
+        
+        if (secondLetter.equals("z")) {
+            newString = newString + "z";
+        }
+        
+        return newString;
+    }
+    
 }

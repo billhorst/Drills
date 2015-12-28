@@ -17,4 +17,14 @@ public class StartHi {
 //StartHi("hi") -> true
 //StartHi("high up") -> false
     
+    public boolean StartHi(String s) {
+        if (s.length() == 2 && s.equals("hi")) {
+            return true;
+        } else if (s.substring(0, 3).equals("hi ")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }
