@@ -48,7 +48,7 @@ public class SumTest {
     @Test
     public void eighteen5112() {
         Sum s = new Sum();
-        int[] a = {5,11,2};
+        int[] a = {5, 11, 2};
         int result = s.Sum(a);
         assertEquals(result, 18);
     }
@@ -56,7 +56,7 @@ public class SumTest {
     @Test
     public void seven700() {
         Sum s = new Sum();
-        int[] a = {7,0,0};
+        int[] a = {7, 0, 0};
         int result = s.Sum(a);
         assertEquals(result, 7);
     }

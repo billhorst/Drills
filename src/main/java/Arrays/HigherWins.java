@@ -10,7 +10,7 @@ package Arrays;
  * @author Bill
  */
 public class HigherWins {
-    
+
 //    Given an array of ints, figure out which is larger between the first and 
 //            last elements in the array, and set all the other elements to be 
 //                    that value. Return the changed array. 
@@ -18,21 +18,20 @@ public class HigherWins {
 //HigherWins({1, 2, 3}) -> {3, 3, 3}
 //HigherWins({11, 5, 9}) -> {11, 11, 11}
 //HigherWins({2, 11, 3}) -> {3, 3, 3}
-
     public int[] HigherWins(int[] numbers) {
         int[] newArray = new int[numbers.length];
-        if (numbers[0] > numbers[numbers.length-1]) {
+        if (numbers[0] > numbers[numbers.length - 1]) {
             for (int i = 0; i < numbers.length; i++) {
                 newArray[i] = numbers[0];
             }
 
-        } else if (numbers[0] < numbers[numbers.length-1]) {
+        } else if (numbers[0] < numbers[numbers.length - 1]) {
             for (int i = 0; i < numbers.length; i++) {
-                newArray[i] = numbers[numbers.length-1];
+                newArray[i] = numbers[numbers.length - 1];
             }
         }
-        
+
         return newArray;
     }
-    
+
 }

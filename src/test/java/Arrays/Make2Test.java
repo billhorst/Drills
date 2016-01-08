@@ -17,51 +17,51 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class Make2Test {
-    
+
     public Make2Test() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
-    public void a45123 () {
+    public void a45123() {
         Make2 m = new Make2();
-        int[] a = {4,5};
-        int[] b = {1,2,3};
-        int[] exp = {4,5};
-        assertArrayEquals(exp,m.make2(a, b));
+        int[] a = {4, 5};
+        int[] b = {1, 2, 3};
+        int[] exp = {4, 5};
+        assertArrayEquals(exp, m.make2(a, b));
     }
-    
+
     @Test
-    public void a4123 () {
+    public void a4123() {
         Make2 m = new Make2();
         int[] a = {4};
-        int[] b = {1,2,3};
-        int[] exp = {4,1};
-        assertArrayEquals(exp,m.make2(a, b));
+        int[] b = {1, 2, 3};
+        int[] exp = {4, 1};
+        assertArrayEquals(exp, m.make2(a, b));
     }
-    
+
     @Test
-    public void a12 () {
+    public void a12() {
         Make2 m = new Make2();
         int[] a = {};
-        int[] b = {1,2};
-        int[] exp = {1,2};
-        assertArrayEquals(exp,m.make2(a, b));
+        int[] b = {1, 2};
+        int[] exp = {1, 2};
+        assertArrayEquals(exp, m.make2(a, b));
     }
 
     // TODO add test methods here.

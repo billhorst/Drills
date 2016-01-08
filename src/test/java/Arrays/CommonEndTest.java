@@ -17,26 +17,26 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class CommonEndTest {
-    
+
     public CommonEndTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void t12373() {
         CommonEnd c = new CommonEnd();
@@ -45,7 +45,7 @@ public class CommonEndTest {
         boolean result = c.commonEnd(arraya, arrayb);
         assertTrue(result);
     }
-    
+
     @Test
     public void f123732() {
         CommonEnd c = new CommonEnd();

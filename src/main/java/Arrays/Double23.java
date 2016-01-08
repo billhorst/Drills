@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arrays; 
+package Arrays;
 
 /**
  *
  * @author Bill
  */
-
 //Given an int array, return true if the array contains 2 twice, or 3 twice. 
 //
 //Double23({2, 2, 3}) -> true
 //Double23({3, 4, 5, 3}) -> true
 //Double23({2, 3, 2, 2}) -> false
+public class Double23 {
 
-public class Double23 { 
-    
     public boolean Double23(int[] numbers) {
         boolean twice;
         int twoCount = 0;
@@ -30,7 +28,7 @@ public class Double23 {
                 threeCount++;
             }
         }
-        
+
         if (twoCount == 2 || threeCount == 2) {
             twice = true;
         } else {
@@ -38,5 +36,5 @@ public class Double23 {
         }
         return twice;
     }
-    
+
 }

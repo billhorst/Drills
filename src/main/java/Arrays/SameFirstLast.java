@@ -17,16 +17,17 @@ public class SameFirstLast {
 //SameFirstLast({1, 2, 3, 1}) -> true
 //SameFirstLast({1, 2, 1}) -> true
     public boolean SameFirstLast(int[] numbers) {
-        
+
         boolean result;
-        if (numbers[0] == numbers[numbers.length-1]) {
+        if (numbers[0] == numbers[numbers.length - 1]) {
             result = true;
         } else {
             result = false;
         }
-        
+
         return result;
-        
-    };
+
+    }
+;
 
 }

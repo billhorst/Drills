@@ -27,5 +27,5 @@ public class RotateLeft {
         return newArray;
 
     }
-    
+
 }
