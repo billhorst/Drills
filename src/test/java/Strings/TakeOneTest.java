@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class TakeOneTest {
-    
+
     public TakeOneTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void helloth() {
         TakeOne t = new TakeOne();
         String result = t.TakeOne("Hello", true);
         assertEquals("H", result);
     }
-    
+
     @Test
     public void hellofo() {
         TakeOne t = new TakeOne();
         String result = t.TakeOne("Hello", false);
         assertEquals("o", result);
     }
-    
+
     @Test
     public void ohto() {
         TakeOne t = new TakeOne();

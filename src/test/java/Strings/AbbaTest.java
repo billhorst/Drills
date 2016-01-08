@@ -17,41 +17,41 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class AbbaTest {
-    
+
     public AbbaTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void hiBye() {
         Abba ab = new Abba();
         String result = ab.Abba("hi", "Bye");
         assertEquals("hiByeByehi", result);
     }
-    
-        @Test
+
+    @Test
     public void yoAlice() {
         Abba ab = new Abba();
         String result = ab.Abba("Yo", "Alice");
         assertEquals("YoAliceAliceYo", result);
     }
-    
-        @Test
+
+    @Test
     public void whatUp() {
         Abba ab = new Abba();
         String result = ab.Abba("What", "Up");

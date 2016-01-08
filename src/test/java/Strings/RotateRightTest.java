@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class RotateRightTest {
-    
+
     public RotateRightTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void rrhello() {
         RotateRight r = new RotateRight();
         String result = r.RotateRight("Hello");
         assertEquals("loHel", result);
     }
-    
+
     @Test
     public void rrjava() {
         RotateRight r = new RotateRight();
         String result = r.RotateRight("java");
         assertEquals("vaja", result);
     }
-    
+
     @Test
     public void rrhi() {
         RotateRight r = new RotateRight();

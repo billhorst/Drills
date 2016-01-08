@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class EndsWithLyTest {
-    
+
     public EndsWithLyTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void oddlyt() {
         EndsWithLy e = new EndsWithLy();
         boolean result = e.EndsWithLy("oddly");
         assertTrue(result);
     }
-    
+
     @Test
     public void y() {
         EndsWithLy e = new EndsWithLy();
         boolean result = e.EndsWithLy("y");
         assertFalse(result);
     }
-    
+
     @Test
     public void oddy() {
         EndsWithLy e = new EndsWithLy();

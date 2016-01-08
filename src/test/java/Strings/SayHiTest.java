@@ -17,26 +17,26 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class SayHiTest {
-    
+
     public SayHiTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void SayHiBob() {
         SayHi sh = new SayHi();
@@ -48,7 +48,7 @@ public class SayHiTest {
     public void SayHiBill() {
         SayHi sh = new SayHi();
         String result = sh.SayHi("Bill");
-        assertEquals("Hello Bill", result);        
+        assertEquals("Hello Bill", result);
     }
 
     @Test
