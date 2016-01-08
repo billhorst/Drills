@@ -18,13 +18,11 @@ public class TwoIsOne {
 //TwoIsOne(3, 2, 2) → false
 
     public boolean TwoIsOne(int a, int b, int c) {
-        boolean result;
         if (a + b == c || b + c == a || a + c == b) {
-            result = true;
+            return true;
         } else {
-            result = false;
+            return false;
         }
-        return result;
     }
 
 }

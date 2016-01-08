@@ -28,14 +28,12 @@ public class LastDigit {
         while (c >= 10) {
             c = c - 10;
         }
-        boolean result = true;
-        if (a == b || a == c || b == c) {
-            result = true;
-        } else {
-            result = false;
-        }
 
-        return result;
+        if (a == b || a == c || b == c) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }

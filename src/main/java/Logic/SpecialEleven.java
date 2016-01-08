@@ -19,13 +19,11 @@ public class SpecialEleven {
 //SpecialEleven(24) → false
 
     public boolean SpecialEleven(int n) {
-        boolean result = true;
         if (n % 11 == 0 || n % 11 == 1) {
-            result = true;
+            return true;
         } else {
-            result = false;
+            return false;
         }
-        return result;
     }
 
 }
