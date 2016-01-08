@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class FrontThreeTest {
-    
+
     public FrontThreeTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void microsoft() {
         FrontThree f = new FrontThree();
         String result = f.FrontThree("Microsoft");
         assertEquals("MicMicMic", result);
     }
-    
+
     @Test
     public void Chocolate() {
         FrontThree f = new FrontThree();
         String result = f.FrontThree("Chocolate");
         assertEquals("ChoChoCho", result);
     }
-    
+
     @Test
     public void at() {
         FrontThree f = new FrontThree();

@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class SoAloneTest {
-    
+
     public SoAloneTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void t1399() {
         SoAlone s = new SoAlone();
         boolean result = s.SoAlone(13, 99);
         assertTrue(result);
     }
-    
+
     @Test
     public void t2119() {
         SoAlone s = new SoAlone();
         boolean result = s.SoAlone(21, 19);
         assertTrue(result);
     }
-    
+
     @Test
     public void f1313() {
         SoAlone s = new SoAlone();

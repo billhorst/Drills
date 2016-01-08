@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class FrontBackTest {
-    
+
     public FrontBackTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void code() {
         FrontBack f = new FrontBack();
         String result = f.FrontBack("code");
         assertEquals("eodc", result);
     }
-    
+
     @Test
     public void a() {
         FrontBack f = new FrontBack();
         String result = f.FrontBack("a");
         assertEquals("a", result);
     }
-    
+
     @Test
     public void ab() {
         FrontBack f = new FrontBack();

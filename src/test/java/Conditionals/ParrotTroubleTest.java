@@ -17,22 +17,22 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class ParrotTroubleTest {
-    
+
     public ParrotTroubleTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -43,14 +43,14 @@ public class ParrotTroubleTest {
         boolean result = p.ParrotTrouble(true, 6);
         assertTrue(result);
     }
-    
+
     @Test
     public void t7f() {
         ParrotTrouble p = new ParrotTrouble();
         boolean result = p.ParrotTrouble(true, 7);
         assertFalse(result);
     }
-    
+
     @Test
     public void f6f() {
         ParrotTrouble p = new ParrotTrouble();

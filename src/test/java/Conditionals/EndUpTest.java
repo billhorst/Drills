@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class EndUpTest {
-    
+
     public EndUpTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void hello() {
         EndUp e = new EndUp();
         String result = e.EndUp("hello");
         assertEquals("heLLO", result);
     }
-    
+
     @Test
     public void hithere() {
         EndUp e = new EndUp();
         String result = e.EndUp("hi there");
         assertEquals("hi thERE", result);
     }
-    
+
     @Test
     public void hi() {
         EndUp e = new EndUp();

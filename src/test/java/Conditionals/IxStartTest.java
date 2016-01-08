@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class IxStartTest {
-    
+
     public IxStartTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void mix() {
         IxStart i = new IxStart();
         boolean result = i.IxStart("mix");
         assertTrue(result);
     }
-    
+
     @Test
     public void pix() {
         IxStart i = new IxStart();
         boolean result = i.IxStart("pix");
         assertTrue(result);
     }
-    
+
     @Test
     public void piz() {
         IxStart i = new IxStart();

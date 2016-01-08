@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class MaxTest {
-    
+
     public MaxTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void m123() {
         Max m = new Max();
         int result = m.Max(1, 2, 3);
         assertEquals(3, result);
     }
-    
+
     @Test
     public void m132() {
         Max m = new Max();
         int result = m.Max(1, 3, 2);
         assertEquals(3, result);
     }
-    
+
     @Test
     public void m321() {
         Max m = new Max();

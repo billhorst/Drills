@@ -17,45 +17,45 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class BackAroundTest {
-    
+
     public BackAroundTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void cat() {
         BackAround b = new BackAround();
         String result = b.BackAround("cat");
-        assertEquals("tcatt",result);
+        assertEquals("tcatt", result);
     }
-    
+
     @Test
     public void hello() {
         BackAround b = new BackAround();
         String result = b.BackAround("hello");
-        assertEquals("ohelloo",result);
+        assertEquals("ohelloo", result);
     }
-    
+
     @Test
     public void a() {
         BackAround b = new BackAround();
         String result = b.BackAround("a");
-        assertEquals("aaa",result);
+        assertEquals("aaa", result);
     }
 
     // TODO add test methods here.

@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class SleepingInTest {
-    
+
     public SleepingInTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void fft() {
         SleepingIn s = new SleepingIn();
         boolean result = s.SleepingIn(false, false);
         assertTrue(result);
     }
-    
+
     @Test
     public void tff() {
         SleepingIn s = new SleepingIn();
         boolean result = s.SleepingIn(true, false);
         assertFalse(result);
     }
-    
+
     @Test
     public void ftt() {
         SleepingIn s = new SleepingIn();

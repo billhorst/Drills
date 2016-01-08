@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class MischievousChildrenTest {
-    
+
     public MischievousChildrenTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void ttt() {
         MischievousChildren m = new MischievousChildren();
         boolean result = m.AreWeInTrouble(true, true);
         assertTrue(result);
     }
-    
+
     @Test
     public void fft() {
         MischievousChildren m = new MischievousChildren();
         boolean result = m.AreWeInTrouble(false, false);
         assertTrue(result);
     }
-    
+
     @Test
     public void tff() {
         MischievousChildren m = new MischievousChildren();

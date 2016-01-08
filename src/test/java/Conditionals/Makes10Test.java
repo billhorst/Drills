@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class Makes10Test {
-    
+
     public Makes10Test() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void m910t() {
         Makes10 m = new Makes10();
         boolean result = m.Makes10(9, 10);
         assertTrue(result);
     }
-    
+
     @Test
     public void m99f() {
         Makes10 m = new Makes10();
         boolean result = m.Makes10(9, 9);
         assertFalse(result);
     }
-    
+
     @Test
     public void m91t() {
         Makes10 m = new Makes10();

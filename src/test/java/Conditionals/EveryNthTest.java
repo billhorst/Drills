@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class EveryNthTest {
-    
+
     public EveryNthTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void miracle2() {
         EveryNth e = new EveryNth();
         String result = e.EveryNth("Miracle", 2);
         assertEquals("Mrce", result);
     }
-    
+
     @Test
     public void abcdefg2() {
         EveryNth e = new EveryNth();
         String result = e.EveryNth("abcdefg", 2);
         assertEquals("aceg", result);
     }
-    
+
     @Test
     public void miracle3() {
         EveryNth e = new EveryNth();

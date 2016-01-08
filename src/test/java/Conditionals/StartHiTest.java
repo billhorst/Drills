@@ -17,40 +17,40 @@ import static org.junit.Assert.*;
  * @author Bill
  */
 public class StartHiTest {
-    
+
     public StartHiTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
     public void hithere() {
         StartHi s = new StartHi();
         boolean result = s.StartHi("hi there");
         assertTrue(result);
     }
-    
+
     @Test
     public void hi() {
         StartHi s = new StartHi();
         boolean result = s.StartHi("hi");
         assertTrue(result);
     }
-    
+
     @Test
     public void highup() {
         StartHi s = new StartHi();
