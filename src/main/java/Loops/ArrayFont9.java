@@ -18,18 +18,12 @@ public class ArrayFont9 {
 //ArrayFront9({1, 2, 3, 4, 5}) -> false
 
     public boolean ArrayFont9(int[] numbers) {
-        int count = 0;
-        boolean nine = true;
         for (int i = 0; i < 4; i++) {
             if (numbers[i] == 9) {
-                count++;
-            }
-            if (count > 0) {
-                nine = true;
-            } else {
-                nine = false;
+                return true;
             }
         }
-        return nine;
+        return false;
+
     }
 }

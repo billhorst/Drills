@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0" errors="0" skipped="0" tests="3" name="Loops.Count9Test">
+<testsuite failures="0" time="0.005" errors="0" skipped="0" tests="3" name="Loops.Count9Test">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0" classname="Loops.Count9Test" name="c199393"/>
+  <testcase time="0.001" classname="Loops.Count9Test" name="c199393"/>
   <testcase time="0" classname="Loops.Count9Test" name="c1291"/>
   <testcase time="0" classname="Loops.Count9Test" name="c1992"/>
 </testsuite>

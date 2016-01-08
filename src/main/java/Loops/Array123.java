@@ -17,14 +17,11 @@ public class Array123 {
 //Array123({1, 1, 2, 1, 2, 3}) -> true
 
     public boolean Array123(int[] numbers) {
-        boolean one23 = true;
         for (int i = 0; i < numbers.length; i++) {
             if ((numbers[i] == 1) && (numbers[i] + 1 == 2) && (numbers[i] + 2 == 3)) {
-                one23 = true;
-            } else {
-                one23 = false;
+                return true;
             }
         }
-        return one23;
+        return false;
     }
 }
