@@ -61,6 +61,14 @@ public class SameFirstLastTest {
         assertTrue(result);
     }
 
+    @Test
+    public void s() {
+        SameFirstLast sfl = new SameFirstLast();
+        int[] array = {};
+        boolean result = sfl.SameFirstLast(array);
+        assertFalse(result);
+    }
+
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //

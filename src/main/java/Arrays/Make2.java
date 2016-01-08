@@ -27,7 +27,8 @@ public class Make2 {
             array[0] = a[0];
             array[1] = b[0];
         } else {
-            array = b;
+            array[0] = b[0];
+            array[1] = b[1];
         }
         return array;
     }

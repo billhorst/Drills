@@ -47,7 +47,7 @@ public class HasEvenTest {
     @Test
     public void t43() {
         HasEven h = new HasEven();
-        int[] a = {4, 3};
+        int[] a = {3, 4};
         assertTrue(h.HasEven(a));
     }
 
@@ -56,6 +56,13 @@ public class HasEvenTest {
         HasEven h = new HasEven();
         int[] a = {7, 5};
         assertFalse(h.HasEven(a));
+    }
+    
+    @Test
+    public void t345() {
+        HasEven h = new HasEven();
+        int[] a = {3,4,5};
+        assertTrue(h.HasEven(a));
     }
 
     // TODO add test methods here.

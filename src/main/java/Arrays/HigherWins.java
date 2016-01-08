@@ -19,19 +19,18 @@ public class HigherWins {
 //HigherWins({11, 5, 9}) -> {11, 11, 11}
 //HigherWins({2, 11, 3}) -> {3, 3, 3}
     public int[] HigherWins(int[] numbers) {
-        int[] newArray = new int[numbers.length];
         if (numbers[0] > numbers[numbers.length - 1]) {
             for (int i = 0; i < numbers.length; i++) {
-                newArray[i] = numbers[0];
+                numbers[i] = numbers[0];
             }
 
         } else if (numbers[0] < numbers[numbers.length - 1]) {
             for (int i = 0; i < numbers.length; i++) {
-                newArray[i] = numbers[numbers.length - 1];
+                numbers[i] = numbers[numbers.length - 1];
             }
         }
+        return numbers;
 
-        return newArray;
     }
 
 }

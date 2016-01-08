@@ -19,14 +19,12 @@ package Arrays;
 public class HasEven {
 
     public boolean HasEven(int[] numbers) {
-        boolean hasEven = false;
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 == 0) {
-                hasEven = true;
-                break;
+                return true;
             }
         }
-        return hasEven;
+        return false;
     }
 
 }

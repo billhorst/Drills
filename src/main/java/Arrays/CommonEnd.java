@@ -19,7 +19,7 @@ public class CommonEnd {
 //CommonEnd({1, 2, 3}, {7, 3, 2}) -> false
 //CommonEnd({1, 2, 3}, {1, 3}) -> true
     public boolean commonEnd(int[] a, int[] b) {
-        if ((a[0] == b[0]) || (a[a.length - 1] == b[b.length - 1])) {
+        if (a[0] == b[0] || a[a.length - 1] == b[b.length - 1]) {
             return true;
         } else {
             return false;

@@ -17,24 +17,25 @@ package Arrays;
 public class Double23 {
 
     public boolean Double23(int[] numbers) {
-        boolean twice;
-        int twoCount = 0;
-        int threeCount = 0;
+
+        int two = 0;
+        int three = 0;
+        
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == 2) {
-                twoCount++;
+                two++;
             }
+            
             if (numbers[i] == 3) {
-                threeCount++;
+                three++;
             }
         }
-
-        if (twoCount == 2 || threeCount == 2) {
-            twice = true;
+        
+        if (two == 2 || three == 2) {
+            return true;
         } else {
-            twice = false;
+            return false;
         }
-        return twice;
     }
 
 }

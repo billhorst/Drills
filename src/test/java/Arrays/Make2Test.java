@@ -64,6 +64,15 @@ public class Make2Test {
         assertArrayEquals(exp, m.make2(a, b));
     }
 
+    @Test
+    public void a121() {
+        Make2 m = new Make2();
+        int[] a = {};
+        int[] b = {1, 2, 1};
+        int[] exp = {1, 2};
+        assertArrayEquals(exp, m.make2(a, b));
+    }
+
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
